@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:parentTag="android.widget.ScrollView">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:gravity="center"
+            android:text="@string/tv_title.text"
+            android:textSize="@dimen/title_size" />
+
+        <View
+            android:id="@+id/v_selected_color"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/selected_color_view_height"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:background="@color/dark_yellow" />
+
+        <SeekBar
+            android:id="@+id/sb_red"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16" />
+
+        <SeekBar
+            android:id="@+id/sb_green"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16" />
+
+        <SeekBar
+            android:id="@+id/sb_blue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16" />
+
+        <LinearLayout
+            android:id="@+id/ll_colors"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:orientation="horizontal">
+
+            <View
+                android:id="@+id/v_red"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/red" />
+
+            <View
+                android:id="@+id/v_mulberry"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/mulberry" />
+
+            <View
+                android:id="@+id/v_violet"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/violet" />
+
+            <View
+                android:id="@+id/v_grape"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/grape" />
+
+            <View
+                android:id="@+id/v_dark_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/dark_blue" />
+
+            <View
+                android:id="@+id/v_light_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/light_blue" />
+
+
+            <View
+                android:id="@+id/v_azure"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/azure" />
+
+            <View
+                android:id="@+id/v_sky"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/sky" />
+
+            <View
+                android:id="@+id/v_aquamarine"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/aquamarine" />
+
+            <View
+                android:id="@+id/v_emerald"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/color_view_height"
+                android:layout_weight="1"
+                android:background="@color/emerald" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/ll_buttons"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:gravity="end"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/btn_cancel.text" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btn_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="@string/btn_ok.text" />
+        </LinearLayout>
+
+    </LinearLayout>
+</merge>

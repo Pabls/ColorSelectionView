@@ -1,0 +1,5 @@
+<resources>
+    <string name="tv_title.text">Choose a color</string>
+    <string name="btn_cancel.text">Cancel</string>
+    <string name="btn_ok.text">Ok</string>
+</resources>

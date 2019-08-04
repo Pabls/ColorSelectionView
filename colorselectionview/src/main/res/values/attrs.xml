@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="ColorSelectionView">
+        <attr name="csv_title" format="string" />
+        <attr name="csv_show_title" format="boolean" />
+        <attr name="csv_show_seek_bars" format="boolean" />
+        <attr name="csv_show_color_palette" format="boolean" />
+        <attr name="csv_show_buttons" format="boolean" />
+        <attr name="csv_cancel_button_text" format="string" />
+        <attr name="csv_ok_button_text" format="string" />
+    </declare-styleable>
+</resources>
